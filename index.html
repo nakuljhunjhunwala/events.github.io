@@ -1,0 +1,805 @@
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+Event Karega?
+        </title>
+       
+        
+<style type="text/css">
+    
+   
+
+
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+
+@-ms-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+
+@-o-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+body{
+    background-color:rgb(217, 217, 217);
+
+    background-repeat:no-repeat;
+    margin:auto;
+    background-size:100%;
+}
+
+
+.name {
+
+background-color:rgb(7, 94, 84);
+height: 100px;
+width: 100%;
+color: antiquewhite;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+
+.name div{
+
+float: left;
+}
+
+.menuicon {       
+height: 50%;
+width: 5%;
+margin-top:25px;
+}
+
+.evename {
+height: 100%;
+width: 90%;
+padding-top: 25px;
+padding-left: 5%;
+font-size: 35px;
+overflow: hidden;
+}
+
+
+.menu {
+width: 5px;
+}
+
+.circle {
+background-color:antiquewhite;
+height: 8px;
+width: 8px;
+border-radius: 100%;
+margin: 2px;
+}
+
+
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+
+
+
+
+
+
+
+ul {
+margin:0px;
+padding:0px;
+margin-left: -90px;
+margin-top: 10px;
+list-style-type:none;
+}
+ul li a{
+text-decoration:none;
+color:black;
+display:block;
+transition-duration: 3s;
+font-size: 20px;
+padding-top: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+ul li:hover{
+background-color:rgb(219, 219, 219);
+
+
+}
+ul li  {
+display:none;
+}
+
+.menuicon:hover ul li {
+display:block;
+}
+
+ul li{
+
+width:170px;
+height:60px;
+background-color:whitesmoke;
+font-size:15px;
+line-height:30px;
+text-align:center;
+
+
+}
+
+
+
+.option {
+
+background-color:rgb(7, 94, 84);
+height: 70px;
+width: 100%;
+
+color:antiquewhite;
+font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.option div:hover {
+background-color:rgba(81, 161, 152, 0.603);
+}
+
+.option div{
+float: left;
+
+}
+
+
+.evnt {
+
+height: 65%;
+width: 50%;
+text-align: center;
+}
+
+.payment {
+
+height: 65%;
+width: 50%;
+text-align: center;
+
+}
+
+
+
+.selection {
+background-color:whitesmoke;
+height: 5px;
+width: 50%;
+margin-top: -5px;
+box-shadow: 0px 3px lightgrey;
+}
+
+
+.chat {
+
+    background-color:rgb(217, 217, 217);
+    height: 600px;
+    width: 100%;
+    overflow:scroll;
+    margin-top: 2%;
+    scroll-behavior: smooth;
+  
+}
+::-webkit-scrollbar { 
+    display:none; 
+}
+
+::-moz-scrollbar {
+
+    display:none;
+}
+
+
+.details {
+
+   
+    height: 90px;
+    width: 100%;
+    color:black;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+overflow:hidden;
+margin-bottom: 25px;
+box-shadow: 20px 3px lightgray;
+transition-duration: 3s;
+
+}
+
+
+
+.details2 {
+
+   
+height: 300px;
+width: 100%;
+color:black;
+font-size: 23px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+overflow: hidden;
+margin-bottom: 25px;
+
+}
+
+
+.maineve {
+height: 180px;
+width: 95%;
+text-align: left;
+font-size: 19px;
+margin-top: 5px;
+margin-left: 2.5%;
+
+overflow: scroll;
+}
+
+
+
+.details div{
+
+    float: left;
+}
+
+
+.photo {
+    width: 20%;
+
+}
+
+
+img.round {
+    border-radius: 100%;
+    margin-left: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+.detail {
+    width: 80%;
+    margin-top: 25px;
+    text-align: center;
+    overflow:scroll;
+}
+
+
+
+
+
+
+footer {
+    color:antiquewhite;
+background-color:rgb(7, 94, 84);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+height:45px;
+width: 100%;
+margin-top:2px;
+}
+
+
+
+
+@media (max-height: 740px) {
+.chat {
+height: 550px;
+}
+}
+
+
+
+@media (min-height: 1000px) {
+.chat {
+height: 1200px;
+}
+}
+
+@media (max-height: 670px) {
+.chat {
+height: 490px;
+}
+}
+
+
+
+@media (max-width: 730px) {
+
+.evename {
+    font-size: 30px;
+    width: 87%;
+}
+
+
+ul li{
+
+width:140px;
+height:40px;
+font-size:13px;
+}
+
+
+
+ul {
+
+margin-left: -70%;
+margin-top: 5px;
+
+}
+
+
+.option {
+font-size: 23px;
+}
+
+.details {
+    font-size: 22px;
+
+}
+
+
+.details2 {
+    font-size: 22px;
+
+}
+
+
+img.round {
+    height: 70px;
+    width: 70px;
+}
+
+
+.maineve {
+font-size: 18px;
+
+}
+
+
+}
+
+
+
+@media (max-width: 482px) {
+
+.evename {
+font-size: 27px;
+width: 83%;
+}
+
+
+.circle {
+background-color:antiquewhite;
+height: 7px;
+width: 7px;
+border-radius: 100%;
+margin: 2px;
+}
+
+ 
+.option {
+font-size: 22px;
+}
+
+
+.details {
+    font-size: 21px;
+
+}
+
+
+.details2 {
+    font-size: 21px;
+
+}
+
+
+
+
+img.round {
+    height: 60px;
+    width: 60px;
+}
+
+
+.maineve {
+font-size: 16px;
+}
+
+
+
+}
+
+@media (max-width: 420px) {
+
+.name{
+
+height: 70px;
+}
+
+.evename {
+font-size: 21px;
+width: 83%;
+
+}
+
+.menuicon {
+width: 5%;
+}
+
+
+.option {
+font-size: 21px;
+}
+
+
+.details {
+    font-size: 20px;
+
+}
+
+
+.details2 {
+    font-size: 20px;
+
+}
+
+
+
+img.round {
+    height: 60px;
+    width: 60px;
+}
+
+}
+
+@media (max-width: 350px) {
+
+.name {
+width:350px;
+}
+
+
+.option {
+width:350px;
+}
+
+
+.selection {
+width:175px;
+}
+
+
+.details {
+    width:350px;
+
+}
+
+
+.details2 {
+    width:350px;
+
+}
+
+.footer {
+    width:350px;
+
+}
+
+}
+    </style>
+</head>
+<body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".details").click(function(){
+        $(this).toggleClass("details2");
+      });
+    });
+    </script>
+
+
+
+
+
+
+
+
+<div class="name">
+    <div class="evename">
+        Yashica Events and Promotion
+    </div>
+
+
+    <div class="menuicon">
+        <div class="menu">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+
+            
+            <div class="dropdown">
+
+                    <div class="droplist">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+    
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="option">
+
+    <div class="evnt">Events
+        <br>
+            
+     
+    
+    </div>
+    
+    
+    <div class="payment"><a href="payment.html" style="color:antiquewhite;text-decoration: none;">Payment Proof</a></div>
+    
+    </div>
+
+    <div class="selection"></div>
+
+
+<div class="chat">
+
+
+
+
+
+
+
+<div class="details">
+<div class="photo"><img src="dp.jpg" class="round"  ></div>
+<div class="detail"> Event 1
+
+        <br>
+        <br>
+        <br>
+</div>
+
+<div class="maineve">
+
+
+
+
+
+
+</div>
+
+<br>
+</div>
+
+
+
+
+<div class="details">
+        <div class="photo"><img src="dp.jpg" class="round"  ></div>
+        <div class="detail"> Event 2
+<br>
+<br>
+<br>
+
+
+
+
+
+    </div>
+    <div class="maineve">
+
+    
+    
+    
+    
+    </div>
+    
+   <br>
+</div>
+
+
+
+
+   
+        <div class="details">
+                <div class="photo"><img src="dp.jpg" class="round"  ></div>
+                <div class="detail"> Event 3
+                
+                        <br>
+                        <br>
+                        <br>
+            
+                </div>
+                <div class="maineve">
+
+
+                  
+                
+                
+                
+                
+                </div>
+                
+                <br>
+        </div>
+                
+                
+                
+                
+                <div class="details">
+                        <div class="photo"><img src="dp.jpg" class="round"  ></div>
+                        <div class="detail"> Event 4
+                <br>
+                <br>
+                <br>
+                
+                        </div>
+                        <div class="maineve">
+
+
+                           
+                        
+                        
+                        
+                        
+                        </div>
+                        
+                        <br>
+            </div>
+                
+                
+
+            
+<div class="details">
+        <div class="photo"><img src="dp.jpg" class="round"  ></div>
+        <div class="detail"> Event 5
+        
+                <br>
+                <br>
+                <br>
+        
+        </div>
+        <div class="maineve">
+
+
+            
+        
+        
+        
+        
+        </div>
+        
+        <br>
+        </div>
+        
+        
+        
+        
+        <div class="details">
+                <div class="photo"><img src="dp.jpg" class="round"  ></div>
+                <div class="detail"> Event 6
+        <br>
+        <br>
+        <br>
+        
+            </div>
+            <div class="maineve">
+
+
+                
+            
+            
+            
+            
+            </div>
+            
+           <br>
+        </div>
+        
+        
+        
+        
+           
+                <div class="details">
+                        <div class="photo"><img src="dp.jpg" class="round"  ></div>
+                        <div class="detail"> Event 7
+                        
+                                <br>
+                                <br>
+                                <br>
+                        
+                        </div>
+                        <div class="maineve">
+
+
+                            
+                        
+                        
+                        
+                        
+                        </div>
+                        
+                        <br>
+                </div>
+                        
+                        
+                        
+                        
+                        <div class="details">
+                                <div class="photo"><img src="dp.jpg" class="round"  ></div>
+                                <div class="detail"> Event 8
+                        <br>
+                        <br>
+                        <br>
+                        
+                                </div>
+                                <div class="maineve">
+
+
+                                   
+                                
+                                
+                                
+                                </div>
+                                
+                                <br>
+                    </div>
+
+
+
+
+
+
+</div>
+
+
+
+<footer>
+        <center>
+        &copy;2019 Yashica Events and Promotion
+        </center>
+        
+        
+        
+        </footer>
+
+
+</body>
+</html>
